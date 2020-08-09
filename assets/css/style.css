@@ -41,7 +41,7 @@ body {
     }
 /* Header Styling End */
 
-/* Hero Style */
+/* Hero Style Start */
     .hero {
         height: 800px;
         width: 100%;
@@ -50,6 +50,7 @@ body {
         background-size: cover;
         background-position: center;
     }
+/* Hero Style End */
 
 /* Navigation Elements Style Start */
     .content {
@@ -106,7 +107,7 @@ body {
         margin: 10px auto;
         max-width: 150px;
     }
-/* Benifits Style End */
+/* Our Benifits Style End */
 
 /* Footer Style Start */
     footer {
