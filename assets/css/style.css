@@ -52,6 +52,11 @@ body {
     }
 
 /* Navigation Elements Style Start */
+    .content {
+        width: 75%;
+        display: inline-block;
+        margin-left: 20px;
+    }
     .intro {
         margin-bottom: 20px;
         padding: 50px;
@@ -67,11 +72,6 @@ body {
         margin-bottom: 20px;
         font-size: 36px;
     }
-    .content {
-        width: 75%;
-        display: inline-block;
-        margin-left: 20px;
-    }
     .float-left {
         float: left;
         margin-right: 25px;
@@ -82,7 +82,7 @@ body {
     }
 /* Navigation Elements Style Ends */
 
-/* Benifits Style Start */
+/* Our Benifits Style Start */
     .benefits {
         margin-right: 20px;
         padding: 20px;
@@ -90,13 +90,12 @@ body {
         float: right;
         width: 20%;
         height: 100%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
         background-color: #2589bd;
         color: white;
     }
     .benefits div {
         margin-bottom: 32px;
-    }
     }
     .benefits h3 {
         margin-bottom: 10px;
@@ -109,13 +108,14 @@ body {
     }
 /* Benifits Style End */
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
+/* Footer Style Start */
+    footer {
+        padding: 30px;
+        clear: both;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+    }
+    footer h2 {
+        font-size: 20px;
+    }
+/* Footer Style End */
